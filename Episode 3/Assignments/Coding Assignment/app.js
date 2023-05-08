@@ -52,9 +52,9 @@ const HeadJSX =()=>(
     <div className="title">
          {head}
          <Divider/>
-        <h1>H1 Tag!</h1>
-        <h2>H2 Tag!</h2>
-        <h3>H3 Tag!</h3>
+        <h1 className="head1">H1 Tag!</h1>
+        <h2 className="head2">H2 Tag!</h2>
+        <h3 id="head123" className="head3">H3 Tag!</h3>
     </div>
 )
 const root = ReactDOM.createRoot(document.getElementById("root"));
